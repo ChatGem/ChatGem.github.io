@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Fetcher</title>
+    <title>WeatherGenie</title>
     <style>
         /* Add your custom CSS styles here */
         #middleImage {
@@ -13,7 +13,7 @@
     </style>
 </head>
 <body style="background-color:#7B1FA2;">
-    <h1>Weather Fetcher</h1>
+    <h1>WeatherGenie</h1>
     <div>
         <label for="city">Enter City:</label>
         <input type="text" id="city" placeholder="Enter city name">
@@ -28,7 +28,7 @@
      
 
         function fetchWeather() {
-            const apiKey = '681f558146ec408aa24203103241302'; // Replace 'YOUR_API_KEY' with your actual WeatherAPI.com API key
+            const apiKey = '681f558146ec408aa24203103241302';
             const city = document.getElementById('city').value;
             const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
