@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# v1.0 : 10-08-2014
+
+CACHE:
+# MAIN
+index.html
+mathgenie.html
+cglite.html
+credits.html
+# NETWORK
+weathergenie.html
+# other
+chatgenie.appcache
