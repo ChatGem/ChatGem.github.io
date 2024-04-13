@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
   <title>ChatGenie</title>
   <style>
     body {
@@ -65,16 +66,6 @@
       cursor: pointer;
       /* Change cursor to indicate it's clickable */
     }
-
-    # discord-widget {
-      position: absolute;
-      top: 40px;
-      right: 20px;
-      cursor: pointer;
-      /* Change cursor to indicate it's clickable */
-    }
-
-    /* Additional style to position the search box at the bottom */
   </style>
 </head>
 
@@ -296,7 +287,6 @@
       ballSpeedX = -ballSpeedX; // Start the ball in the opposite direction
       ballSpeedY = -ballSpeedY;
     }
-
     draw();
   </script>
 </body>
