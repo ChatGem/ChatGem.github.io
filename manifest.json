@@ -1,6 +1,7 @@
 {
     "short_name": "ChatGenie",
     "name": "ChatGenie",
+    "icons": [
         {
             "src": "images/favicon.png",
             "type": "image/png",
